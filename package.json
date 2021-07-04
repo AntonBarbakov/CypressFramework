@@ -1,30 +1,20 @@
 {
-  "name": "cypressframework",
+  "name": "cypress-e2e",
   "version": "1.0.0",
-  "description": "Automated Software testing with Cypress",
+  "description": "end-to-end testing with cypress",
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AntonBarbakov/CypressFramework.git"
-  },
   "keywords": [
-    "testing",
     "cypress",
-    "automation"
+    "e2e"
   ],
-  "author": "Barbakov A",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AntonBarbakov/CypressFramework/issues"
-  },
-  "homepage": "https://github.com/AntonBarbakov/CypressFramework#readme",
   "dependencies": {
-    "cypress": "^7.5.0",
-    "cypress-xpath": "^1.6.2",
-    "prettier": "^2.3.1"
+    "cypress": "^4.0.2",
+    "prettier": "^1.19.1"
   }
 }
