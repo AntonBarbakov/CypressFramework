@@ -1,4 +1,4 @@
 {
-    "username" : "invalid username",
-    "password" : "invalid password"
+    "id": "username",
+    "pwd": "password"
 }
