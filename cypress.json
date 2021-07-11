@@ -1,3 +1,6 @@
 {
-    "video": false
+    "video": false,
+    "defaultCommandTimeout" : 5000,
+    "pageLoadTimaout": 8000,
+    "waitForAnimations" : true
 }
