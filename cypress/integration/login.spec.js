@@ -13,12 +13,12 @@ describe('Visual Regression - Login Page', () => {
   })
 
   it('Tablet Layout', () => {
-    cy.setResolution('iphone-6')
+    cy.setResolution('ipad-2')
     cy.matchImageSnapshot()
   })
 
   it('Mobile Layout', () => {
-    cy.setResolution('ipad-2')
+    cy.setResolution('iphone-6')
     cy.matchImageSnapshot()
   })
 })
