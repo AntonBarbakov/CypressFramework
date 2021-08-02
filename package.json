@@ -6,7 +6,7 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "cy:update-snapshots" : "cypress run --env updateSnapshots=true",
+    "cy:update-snapshots": "cypress run --env updateSnapshots=true",
     "cy:run-tests-with-reporter": "cypress run --reporter cypress-image-snapshop/reporter",
     "cy:run-tests-with-no-failure": "cypress run --env failOnSnapshotDiff=false"
   },
@@ -19,6 +19,7 @@
   "dependencies": {
     "cypress": "^4.0.2",
     "cypress-image-snapshot": "^4.0.1",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "cypress-cucumber-preprocessor": "^2.0.1"
   }
 }
