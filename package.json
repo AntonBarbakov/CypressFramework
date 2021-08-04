@@ -15,7 +15,9 @@
     "cypress",
     "e2e",
     "BDD",
-    "CI/CD"
+    "CI/CD",
+    "Jenkins",
+    ""
   ],
   "author": "",
   "license": "ISC",
