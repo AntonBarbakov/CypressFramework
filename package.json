@@ -4,9 +4,8 @@
   "description": "end-to-end testing with cypress",
   "main": "index.js",
   "scripts": {
-    "cy:run-e2e" : "cypress run --spec ./integration/e2e_tests/login.spec.js",
     "cy:open": "cypress open",
-    "cy:run": "cypress run",
+    "cy:run": "cypress run --reporter mochawesome",
     "cy:update-snapshots": "cypress run --env updateSnapshots=true",
     "cy:run-tests-with-reporter": "cypress run --reporter cypress-image-snapshop/reporter",
     "cy:run-tests-with-no-failure": "cypress run --env failOnSnapshotDiff=false"
@@ -17,18 +16,19 @@
     "BDD",
     "CI/CD",
     "Jenkins",
-    ""
+    "mochawesome"
   ],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cypress": "^4.0.2",
+    "cypress-cucumber-preprocessor": "^2.5.5",
     "cypress-image-snapshot": "^4.0.1",
-    "prettier": "^1.19.1",
-    "cypress-cucumber-preprocessor": "^2.0.1"
+    "mocha": "^9.0.3",
+    "mochawesome": "^6.2.2",
+    "prettier": "^1.19.1"
   },
-  "cypress-cucumber-preprocessor" : {
+  "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true
   }
-
 }

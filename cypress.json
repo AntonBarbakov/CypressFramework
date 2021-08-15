@@ -2,5 +2,12 @@
     "video": false,
     "defaultCommandTimeout" : 5000,
     "pageLoadTimaout": 8000,
-    "waitForAnimations" : true
+    "waitForAnimations" : true,
+    "reporter":"mochawesome",
+    "reporterOptions":{
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html":true,
+        "json": false
+    }
 }
